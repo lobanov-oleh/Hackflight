@@ -127,7 +127,9 @@ class Simulator {
             { "FrSky FrSky Simulator",          // radio dongle
                 joystick_t { 1,  2,  3, 4, false } },
             { "Horizon Hobby SPEKTRUM RECEIVER",
-                joystick_t { 2,  -3,  4, -1, false } }
+                joystick_t { 2, -3,  4, -1, false } },
+            { "EdgeTX Radiomaster TX12 Joystick",
+                joystick_t { 3,  1,  2,  4, false } }
         };
 
         static void printKeyboardInstructions()
